@@ -1,6 +1,8 @@
 import pytest
 from unittest.mock import patch
-from tech_news.analyzer.reading_plan import (ReadingPlanService,)
+from tech_news.analyzer.reading_plan import (
+    ReadingPlanService,
+)
 
 
 mock = [

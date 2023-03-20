@@ -63,7 +63,7 @@ def scrape_news(html_content):
 # Requisito 5
 def get_tech_news(amount):
     news = []
-    response = fetch('https://blog.betrybe.com/')
+    response = fetch("https://blog.betrybe.com/")
     urls_link = scrape_updates(response)
     while len(news) < amount:
         for url in urls_link:
